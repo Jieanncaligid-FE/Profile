@@ -1,0 +1,94 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #404a58;  
+    color: #1b1717;
+}
+
+.center-ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #151616;
+}
+.cmp-profile h1{
+    color:#05090e;
+}
+
+header,
+footer {
+    background-color: #5D88BB;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.cmp-profile {
+    background-color: #A1A8B2;
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.cmp-pic img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.cmp-profile p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.cmp-profile ul {
+    padding-left: 15px;
+    text-align: center;
+    margin-top: 10px;
+    border: 3px solid #bbb2b2; 
+    border-radius: 15px;
+    padding: 20px; 
+    background-color: #D6D6D6;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cmp-profile li {
+    margin-bottom: 10px;
+}
+
+.cmp-button button {
+    background: #5D88BB;
+    color: #272424;   
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 14px 24px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+.cmp-button button:hover {
+    background-color: #2980b9;
+}
+
+footer h1,
+footer {
+    color: #05090e;
+    margin-top: 40px;
+    
+}
